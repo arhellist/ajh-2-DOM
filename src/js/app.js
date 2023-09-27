@@ -26,7 +26,7 @@ function run() {
     let rnd = Math.floor(Math.random() * sell.length);
     setTimeout(() => {
       sell[rnd].classList.remove("activeSell");
-    }, 500);
+    }, 1000);
     sell[rnd].classList.add("activeSell");
   }, 1520);
 }
